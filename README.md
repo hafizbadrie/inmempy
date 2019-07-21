@@ -14,3 +14,10 @@ The goal of this project is as a playground to practice my python skills.
 
 1. It doesn't have any persistence layer. Meaning when the program is killed, then data are gone
 2. It doesn't have any data versioning. Meaning when data are deleted or updated, it doesn't keep the previous version so that the program can roll back
+
+# To Do
+
+1. Should detect type mismatch when inserting data to the table
+2. Should detect type mismatch when selecting
+3. Should automatically update the whole data when inserting if particular primary key already existed
+4. Ability to delete row(s)
